@@ -41,6 +41,19 @@ class Aprendiz extends Persona{
     }
 }
 
+class Ficha{
+    constructor(grupo){
+        this._grupo=grupo;
+    }
+}
+var ap1=new Aprendiz();
+var ap2=new Aprendiz(); 
+var migrupo=[];
+migrupo.push(ap1);
+migrupo.push(ap2);
+mificha=new Ficha(migrupo);
+
+
 var ap=new Aprendiz('Laura','Tellez','Contabilidad','2142330');
 console.log(ap);
 
