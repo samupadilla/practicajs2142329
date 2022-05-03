@@ -14,6 +14,7 @@
 function sinParametros(){
     return 'Hola mundo';
 }
+
 console.log(sinParametros());
 //versión flecha
 var sinParam=()=>'Hola mundo';

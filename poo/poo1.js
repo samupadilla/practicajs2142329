@@ -1,16 +1,17 @@
+//......................................................
 //4ta forma de crear objetos en JS
-class Estudiante{    
+class Estudiante{
      constructor(nombre,apellido){
          this.nombre=nombre;
          this.apellido=apellido;
-     }     
+     }
 
 }
 var e1=new Estudiante('ana','angel');
 var e2=new Estudiantes('jorge','Linero');
 console.log(typeof(e1));
 console.log(e1.nombre);
-
+//.....................................................
 //3ra forma de trabajar con objetos en JS
 function Aprendiz(nombre,apellido){
     this.nombre=nombre;
@@ -29,6 +30,7 @@ console.log(ob2.nombreCompleto());
 
 //atributos=propiedades
 //this=esta clase, este objeto
+//....................................................
 //2da forma de generar objetos en JS
 //JSON=Java Script Object Notation -clave:valor
 var alumno={
@@ -75,6 +77,8 @@ console.log(alumno['nombre']);
 console.log(alumno['apellido']);
 
 //console.log(typeof(alumno))
+
+//....................................................
 //1ra forma de generar objetos en JS
 var persona=new Object();
 persona.nombre='Juan';
@@ -88,3 +92,4 @@ persona.mostrar=function(){
 // console.log(typeof(num));
 // var t='palabra';
 // console.log(typeof(t));
+
